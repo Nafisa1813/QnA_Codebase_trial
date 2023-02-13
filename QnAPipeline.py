@@ -316,7 +316,7 @@ class Reasoning:
         gpt3_prompt = self.retrieved_paragraphs + '\n' + 'Question: ' + self.assertion + '\n' + curr_assertion
 #         print('total input tokens', len(gpt3_prompt)/4)
         
-        openai.api_key = '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'
+        openai.api_key = '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'
 
         response1 = openai.Completion.create(
           model="text-davinci-003",
